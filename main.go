@@ -17,7 +17,7 @@ func main() {
 	e.GET("/Test", s.Test)
 	e.Static("/", "static")
 	// Start server
-	e.Logger.Fatal(e.Start(":8882"))
+	e.Logger.Fatal(e.Start(":8555"))
 }
 
 type Server struct {
