@@ -47,6 +47,9 @@
 # *.iml
 # *.ipr
 
+.idea/*
+.ide/vcs.xml
+
 # CMake
 cmake-build-*/
 
